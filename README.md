@@ -5,6 +5,7 @@ Smart-Bin-AI is an intelligent waste classification system that leverages sensor
 The project integrates an Arduino microcontroller for real-time data collection using sensors, and a Random Forest Classifier for AI-based waste classification. It automates the process of waste sorting, thereby promoting sustainability and reducing human effort.
 
 Features
+
 Waste Detection: Detects waste using an ultrasonic sensor and identifies its type (organic or inorganic) based on moisture levels.
 Machine Learning Classification: Utilizes a pre-trained RandomForestClassifier to predict waste type based on sensor data.
 Automatic Control: Opens or closes the bin lid using a servo motor based on the waste classification.
@@ -14,6 +15,7 @@ Buzzer Alerts: Emits sound alerts when the bin is full or requires attention.
 Project Components
 
 Hardware
+
 Arduino UNO: Microcontroller for controlling sensors and motors.
 Ultrasonic Sensor: For detecting proximity and identifying waste presence.
 Soil Moisture Sensor: For detecting moisture content in the waste.
@@ -22,6 +24,7 @@ Servo Motor: Controls the opening and closing of the bin lid.
 Buzzer: Emits alerts based on waste detection and bin status.
 
 Software
+
 Python: Handles machine learning model, data logging, and communication with the Arduino.
 RandomForestClassifier: Used for waste classification based on moisture data.
 Serial Communication: For real-time communication between the Arduino and the Python script.
